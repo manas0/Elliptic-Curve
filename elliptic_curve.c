@@ -3,7 +3,7 @@
 
 typedef struct elliptic_curve_t
 {
-	mpz_t A,B,p;
+	mpz_t A,B, p;
 } elliptic_curve;
 
 typedef struct point_t
