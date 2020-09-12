@@ -1,6 +1,7 @@
 /**************************
 Authors: Rajat & Manas
 Algorithm Details: https://csrc.nist.gov/csrc/media/publications/fips/180/2/archive/2002-08-01/documents/fips180-2withchangenotice.pdf
+			     : https://www.youtube.com/watch?v=f9EbD6iY9zI
 *************************/
 
 #include <stdio.h>
