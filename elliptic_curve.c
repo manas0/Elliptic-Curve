@@ -101,7 +101,7 @@ void elliptic_curve_random_generate(elliptic_curve* e, int n) // n = number of b
 	int cnt = 0;
 	while(1){
 		val = mpz_probab_prime_p(p, 40);
-		if(val == 1){
+		if(val >= 1){
 			break;
 		}
 		if(mpz_even_p(p)){
